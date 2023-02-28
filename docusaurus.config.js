@@ -14,7 +14,7 @@ const config = {
   url: 'https://thinking-grp.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/thinkerAI-docs',
+  baseUrl: '/thinkerAI',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -145,6 +145,18 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  plugins: [
+    [
+      'docusaurus-plugin-typedoc',
+
+      // Plugin / TypeDoc options
+      {
+        entryPoints: ['../lib/index.ts'],
+        tsconfig: '../tsconfig.json',
+      },
+    ],
+  ],
 };
 
 module.exports = config;
