@@ -1,0 +1,17 @@
+mf7cli:
+  name: mf7cli
+  title: Administrator of thinkerAI
+  url: https://github.com/mf-3d
+  image_url: https://github.com/mf-3d.png
+
+EARTH:
+  name: EARTH
+  title: Front End Engineer
+  url: https://github.com/EARTH-web
+  image_url: https://github.com/EARTH-web.png
+
+Sorakime:
+  name: Sorakime
+  title: Administrator of thinking
+  url: https://soraki.me
+  image_url: https://github.com/sorakime.png

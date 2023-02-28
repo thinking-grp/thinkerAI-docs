@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial": {
+    "message": "チュートリアル",
+    "description": "The label for category Tutorial in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial.link.generated-index.description": {
+    "message": "最初にチュートリアルを実行して、基本を学びます。",
+    "description": "The generated-index page description for category Tutorial in sidebar tutorialSidebar"
+  }
+}
