@@ -5,7 +5,7 @@ title: Introduction
 
 # What is thinkerAI?
 
-thinkerAI is a chatbot AI created using JavaScript and Python.
+thinkerAI is a chatbot AI created using TypeScript and Python.
 
 ## Let's get started
 

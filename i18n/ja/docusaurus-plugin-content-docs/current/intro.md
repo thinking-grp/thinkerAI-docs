@@ -3,8 +3,6 @@ sidebar_position: 1
 title: はじめに
 ---
 
-const { Deprecated } = require('../docsUtils');
-
 # thinkerAIとは何ですか?
 
 thinkerAIはJavaScript、Pythonによって作られた雑談AIです。
@@ -33,5 +31,3 @@ thinkerAIはJavaScript、Pythonによって作られた雑談AIです。
 
 * わからないことがある場合、[Twitterアカウント](https://twitter.com/thinking-grp)からアドバイスを受けることができます。
 * バグかと思われるものがあれば[GitHub Issue トラッカー](https://github.com/thinking-grp/thinkerAI/issues)で既存のIssueとあなたのIssueに合致するものがないかご確認ください。もし無ければ、[バグレポートのテンプレート](aaaa)に記入し、新しい Issue をご提出ください。
-
-<Deprecated>This component is deprecated.</Deprecated>
