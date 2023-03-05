@@ -144,15 +144,15 @@ const config = {
     }),
 
   plugins: [
-    // [
-    //   'docusaurus-plugin-typedoc',
+    [
+      'docusaurus-plugin-typedoc',
 
-    //   // Plugin / TypeDoc options
-    //   {
-    //     entryPoints: ['../lib/index.ts'],
-    //     tsconfig: '../tsconfig.json',
-    //   },
-    // ],
+      // Plugin / TypeDoc options
+      {
+        entryPoints: ['../lib/index.ts'],
+        tsconfig: '../tsconfig.json',
+      },
+    ],
     [require.resolve('@cmfcmf/docusaurus-search-local'), {
       // whether to index docs pages
       indexDocs: true,
