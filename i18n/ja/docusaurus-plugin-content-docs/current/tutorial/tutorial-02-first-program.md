@@ -128,7 +128,7 @@ pythonProcess.on("pythonStarted", () => {
 node .
 ```
 
-[**Pythonプロセス**](aaaa)が起動したらターミナルに`Hello from thinkerAI 👋`と出力されるはずです。
+<!-- [**Pythonプロセス**](aaaa)が起動したらターミナルに`Hello from thinkerAI 👋`と出力されるはずです。 -->
 これでpackage.jsonのエントリポイントが正しく設定されていることを確認しました。
 
 ## 雑談プログラムの作成
@@ -159,9 +159,9 @@ import { api, Models, PythonProcess } from "./lib/index";
 
 1行目では、ESMのモジュール構文で3つのthinkerAIモジュールをインポートしています。
 
-* [**api**](/api/lib)、**Pythonプロセス**のAPIの制御を行います。
+<!-- * [**api**](/api/lib)、**Pythonプロセス**のAPIの制御を行います。
 * [**Models**](aaaa)、**Pythonプロセス**で使えるモデルを定義したクラスです。
-* [**PythonProcess**](aaaa)、**Pythonプロセス**の制御を行います。
+* [**PythonProcess**](aaaa)、**Pythonプロセス**の制御を行います。 -->
 
 ```ts title=index.ts (Lines 3 - 5)
 const pythonProcess = new PythonProcess({
@@ -169,5 +169,5 @@ const pythonProcess = new PythonProcess({
 });
 ```
 
-[**PythonProcess**](aaaa)をインスタンス化します。
+<!-- [**PythonProcess**](aaaa)をインスタンス化します。 -->
 引数オプションの`chatModels`は使用する雑談モデルを指定しています。

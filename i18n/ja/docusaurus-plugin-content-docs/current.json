@@ -10,5 +10,17 @@
   "sidebar.tutorialSidebar.category.Tutorial.link.generated-index.description": {
     "message": "最初にチュートリアルを実行して、基本を学びます。",
     "description": "The generated-index page description for category Tutorial in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing": {
+    "message": "貢献する",
+    "description": "The label for category Tutorial in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing.link.generated-index.description": {
+    "message": "開発に貢献したいですか？ その場合は、以下の手順に従ってください。",
+    "description": "The generated-index page description for category Tutorial in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Debugging": {
+    "message": "デバッグ",
+    "description": "The label for category Tutorial in sidebar tutorialSidebar"
   }
 }

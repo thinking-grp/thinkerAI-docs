@@ -1,11 +1,12 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate, { translate } from "@docusaurus/Translate";
 
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/thinker-ai_installing.svg').default,
     description: (
       <>
         thinkerAI has a custom installer for easy installation and use.
@@ -14,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Customize for yourself',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/thinker-ai_customizing.svg').default,
     description: (
       <>
         thinkerAI supports GPT-2, BERT &#40;text classification only&#41;, but other Transformers models can be defined and used.
@@ -23,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Open Source',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/thinker-ai_open-source.svg').default,
     description: (
       <>
         thinkerAI source code is available on GitHub.

@@ -30,4 +30,4 @@ Official support for macOS is planned for a future release.
 ## Need Help?
 
 * If you need help, you can receive advice from the [Twitter account](https://twitter.com/thinking-grp).
-* If you think you have found a bug, please check the existing issues in the [GitHub Issue Tracker](https://github.com/thinking-grp/thinkerAI/issues) to see if there is already an issue that matches yours. If not, fill out the [bug report template](aaaa) and submit a new issue.
+* If you think there is a bug, please check the [GitHub Issue Tracker](https://github.com/thinking-grp/thinkerAI/issues) for existing issues that match your issue. If not, please submit a new issue following [**How to create an issue on thinkerAI**](create-issues).

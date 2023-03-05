@@ -22,14 +22,23 @@ const sidebars = {
   /*
   tutorialSidebar: [
     'intro',
-    'hello',
     {
       type: 'category',
       label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      items: [
+        'tutorial/tutorial-01-prerequisites',
+        'tutorial/tutorial-02-first-program',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Contributing',
+      items: [
+        'development/development-01-development-rules',
+      ],
     },
   ],
-   */
+  */
 };
 
 module.exports = sidebars;

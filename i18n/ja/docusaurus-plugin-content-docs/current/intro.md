@@ -24,10 +24,12 @@ thinkerAIはJavaScript、Pythonによって作られた雑談AIです。
 |||
 |---|---|
 | OS | Windows 10またはそれ以上|
-| ディスクの容量 | 5GB以上 |
-| メモリ | 8GB以上 |
+| ディスクの容量 | 10GB以上 |
+| メモリ | 16GB以上 |
+
+GPUはなくても使用可能です。
 
 ## わからないことがあったら
 
 * わからないことがある場合、[Twitterアカウント](https://twitter.com/thinking-grp)からアドバイスを受けることができます。
-* バグかと思われるものがあれば[GitHub Issue トラッカー](https://github.com/thinking-grp/thinkerAI/issues)で既存のIssueとあなたのIssueに合致するものがないかご確認ください。もし無ければ、[バグレポートのテンプレート](aaaa)に記入し、新しい Issue をご提出ください。
+* バグかと思われるものがあれば[GitHub Issue トラッカー](https://github.com/thinking-grp/thinkerAI/issues)で既存のIssueとあなたのIssueに合致するものがないかご確認ください。もし無ければ、[**thinkerAIのIssueの作成方法**](create-issues/)に従い、新しい Issue をご提出ください。
