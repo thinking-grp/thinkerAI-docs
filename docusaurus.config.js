@@ -145,12 +145,13 @@ const config = {
 
   plugins: [
     [
-      'docusaurus-plugin-typedoc',
+      require.resolve('docusaurus-plugin-typedoc'),
 
       // Plugin / TypeDoc options
       {
         entryPoints: ['../lib/index.ts'],
         tsconfig: '../tsconfig.json',
+        excludePrivate: true
       },
     ],
     [require.resolve('@cmfcmf/docusaurus-search-local'), {
