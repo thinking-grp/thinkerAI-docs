@@ -84,6 +84,11 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {
+            to: '/docs/api',
+            position: 'left',
+            label: 'API',
+          },
           // {
           //   type: 'docsVersionDropdown',
           //   position: 'right',
@@ -109,6 +114,10 @@ const config = {
               {
                 label: 'Getting Started',
                 to: '/docs/intro',
+              },
+              {
+                label: 'API',
+                to: '/docs/api',
               },
             ],
           },
